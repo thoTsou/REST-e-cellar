@@ -36,8 +36,8 @@ public class cellar {
 	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
 	static final String DB_URL = "jdbc:mysql://localhost/cellardb?allowPublicKeyRetrieval=true&autoReconnect=true&useSSL=false";
 	
-	static final String USER = "thoTsou";
-	static final String PASS = "thotsou30495";
+	static final String USER = ""; //MySQL username
+	static final String PASS = ""; // MySQL password
 	
 	@POST
 	@Path("/addBeer/{name}/{color}/{price}/{origin}/{alcohol}/{quantityAdded}")
